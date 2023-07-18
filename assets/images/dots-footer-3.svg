@@ -1,0 +1,28 @@
+<svg width="94" height="44" viewBox="0 0 94 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.07">
+<circle cx="92" cy="12" r="2" transform="rotate(180 92 12)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 92 42)" fill="white"/>
+<circle cx="62" cy="22" r="2" transform="rotate(180 62 22)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 72 32)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 32 32)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 32 42)" fill="white"/>
+<circle cx="92" cy="22" r="2" transform="rotate(180 92 22)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 82 32)" fill="white"/>
+<circle cx="82" cy="12" r="2" transform="rotate(180 82 12)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 62 42)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 22 42)" fill="white"/>
+<circle cx="42" cy="22" r="2" transform="rotate(180 42 22)" fill="white"/>
+<circle cx="42" cy="2" r="2" transform="rotate(180 42 2)" fill="white"/>
+<circle cx="72" cy="2" r="2" transform="rotate(180 72 2)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 52 42)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 52 22)" fill="white"/>
+<circle cx="62" cy="12" r="2" transform="rotate(180 62 12)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 52 32)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 12 42)" fill="white"/>
+<circle cx="62" cy="2" r="2" transform="rotate(180 62 2)" fill="white"/>
+<circle cx="52" cy="12" r="2" transform="rotate(180 52 12)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 42 32)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 42 12)" fill="white"/>
+<circle r="2" transform="matrix(-1 0 0 1 2 42)" fill="white"/>
+</g>
+</svg>
