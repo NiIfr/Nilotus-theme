@@ -47,13 +47,13 @@ let customerSwiper = new Swiper(".customer-swiper", {
   $(document).ready(function() {
     $("#toggle").click(function() {
       var elem = $("#toggle").text();
-      if (elem == "Read More") {
+      if (elem == "ادامه مطالب") {
         //Stuff to do when btn is in the read more state
-        $("#toggle").text("Read Less");
+        $("#toggle").text("بستن");
         $("#fade").slideDown();
       } else {
         //Stuff to do when btn is in the read less state
-        $("#toggle").text("Read More");
+        $("#toggle").text("ادامه مطالب");
         $("#fade").slideUp();
       }
     });
@@ -74,8 +74,10 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
+      $('.ac-title_sessions').removeClass('ss-active');
     } else {
       panel.style.display = "block";
+      $('.ac-title_sessions').addClass('ss-active');
     }
   });
 }
