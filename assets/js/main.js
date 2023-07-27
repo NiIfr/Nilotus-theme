@@ -50,6 +50,7 @@ let customerSwiper = new Swiper(".customer-swiper", {
       if (elem == "ادامه مطالب") {
         //Stuff to do when btn is in the read more state
         $("#toggle").text("بستن");
+        $('#toggle').before('<svg class="icon"><use xlink:href="/assets/images/svg-sprite.svg#Show"></use></svg>');
         $("#fade").slideDown();
       } else {
         //Stuff to do when btn is in the read less state
