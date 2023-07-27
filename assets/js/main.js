@@ -46,18 +46,34 @@ let customerSwiper = new Swiper(".customer-swiper", {
 
   $(document).ready(function() {
     $("#toggle").click(function() {
-      var elem = $("#toggle").text();
+      var elem = $(".toggle-text").text();
       if (elem == "ادامه مطالب") {
         //Stuff to do when btn is in the read more state
-        $("#toggle").text("بستن");
-        $('#toggle').before('<svg class="icon"><use xlink:href="/assets/images/svg-sprite.svg#Show"></use></svg>');
+        $(".toggle-text").text("بستن");
+        $('#toggle').addClass('tg-ic');
         $("#fade").slideDown();
       } else {
         //Stuff to do when btn is in the read less state
-        $("#toggle").text("ادامه مطالب");
+        $(".toggle-text").text("ادامه مطالب");
+        $('#toggle').removeClass('tg-ic');
         $("#fade").slideUp();
       }
     });
+ });
+
+
+
+
+  const button = document.querySelector('.toggle-button');
+  const hiddenItems = document.querySelectorAll('.hidden-item');
+  let isHidden = true;
+  button.addEventListener('click', () => {
+    button.textContent = isHidden
+    ? 'بستن'
+    : 'ادامه سرفصل ها';
+    
+    isHidden = !isHidden;
+    hiddenItems.forEach(item => item.classList.toggle('hidden'));
   });
 
 
@@ -85,14 +101,3 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-const button = document.querySelector('.toggle-button');
-const hiddenItems = document.querySelectorAll('.hidden-item');
-let isHidden = true;
-button.addEventListener('click', () => {
-  button.textContent = isHidden
-  ? 'Hide items'
-  : 'Show more items';
-  
-  isHidden = !isHidden;
-  hiddenItems.forEach(item => item.classList.toggle('hidden'));
-});

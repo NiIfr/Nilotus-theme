@@ -393,7 +393,7 @@ a.nav-logo img {
   transform: scale(1.05) translateZ(0px);
 }
 /*icon svg*/
-.icon {
+.icon{
   width: 1.8rem;
   height: 1.8rem;
 }
@@ -401,6 +401,7 @@ a.nav-logo img {
   width: 1.6rem;
   height: 1.6rem;
 }
+
 
 .icon-large {
   width: 3.8rem;
@@ -1923,18 +1924,15 @@ footer.footer {
 /*sidebar*/
 .course-side {
   width: 25%;
-  padding: 10px;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
 }
 
 .course-side .side-info{
-  
     position: sticky;
     z-index: 999;
-   
     top: 7rem;
-
 }
 .course-side .course-side_item {
   background-color: var(--color-white);
@@ -1970,11 +1968,8 @@ transition: all 0.3s ease-in-out;
 .course-side .side-teacher {
   display: flex;
   flex-direction: column;
-
   align-items: center;
-
   background-color: var(--color-white);
-
   color: var(--color-shadow);
   border-radius: 15px;
   box-shadow: 1px 1px 50px #2a1a8131;
@@ -2070,6 +2065,17 @@ transition: all 0.3s ease-in-out;
   border-radius: 10px;
   font-size: 1.2rem;
 }
+
+.tg-ic_Hide {
+  visibility: hidden;
+}
+.tg-ic .tg-ic_Hide{
+  visibility: visible;
+}
+.tg-ic .tg-ic_Show{
+  visibility: hidden;
+}
+
 
 .accordion .accordion-title .ss-active {
 }
@@ -2187,6 +2193,7 @@ transition: all 0.3s ease-in-out;
 .active,
 .accordion:hover {
   background-color: var(--color-white);
+  transition: all 0.5 ease-in-out;
 }
 
 /* popup comment */
