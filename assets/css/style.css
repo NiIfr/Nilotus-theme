@@ -1927,6 +1927,15 @@ footer.footer {
   display: flex;
   flex-direction: column;
 }
+
+.course-side .side-info{
+  
+    position: sticky;
+    z-index: 999;
+   
+    top: 7rem;
+
+}
 .course-side .course-side_item {
   background-color: var(--color-white);
   box-shadow: 1px 1px 50px var(--color-shadow);
@@ -1938,28 +1947,26 @@ footer.footer {
   align-items: center;
   justify-content: center;
   column-gap: 15px;
-}
-.course-side .course-side_item .course-side_icon {
-  width: 40px;
-  height: 40px;
-}
-
-.course-side .course-side_item .type {
-  color: var(--color-primary);
-  font-weight: 800;
-  font-size: 1.8rem;
-}
-
-.course-side .course-side_item .value-of {
-  font-weight: 400;
-  font-size: 1.4rem;
-}
-.course-side .course-side_item:first-child {
-  margin-top: 0;
-}
-.course-side .course-side_item:last-child {
   margin-bottom: 50px;
 }
+.course-side .course-side_item a{
+ padding: 1rem;
+  font-weight: 500;
+  }
+  .course-side .course-side_item a:hover{
+    color: var(--color-primary);
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+
+    }
+.course-side .course-side_item a:hover::before{
+color: var(--color-primary);
+font-weight: 800;
+content: "\f111";
+transition: all 0.3s ease-in-out;
+}
+
+
 .course-side .side-teacher {
   display: flex;
   flex-direction: column;
