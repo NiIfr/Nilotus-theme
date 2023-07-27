@@ -2054,16 +2054,34 @@ transition: all 0.3s ease-in-out;
   justify-content: space-between;
 }
 
-.accordion .accordion-title .ac-title_sessions {
+.accordion .accordion-title .ss-count {
   display: flex;
   background-color: var(--color-primary);
   color: var(--color-white);
-
   align-items: center;
   column-gap: 5px;
   padding: 5px 5px;
   border-radius: 10px;
   font-size: 1.2rem;
+}
+
+.active .ss-ic{
+  transform: rotate(-90deg);
+  transition: all 0.2s ease-out;
+
+}
+.accordion .accordion-title .ss-title {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.ss-img {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 1.2rem;
 }
 
 .tg-ic_Hide {
