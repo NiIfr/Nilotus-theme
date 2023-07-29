@@ -45,34 +45,30 @@
   margin: 2rem 0;
   overflow: hidden;
 }
-.post_navigatio {
-  width: 100%;
-  background: #fff;
+
+
+.post-navigation {
   margin: 3rem 0;
-  padding: 3rem 1rem;
-}
-.post_navigatio .col-5{
-  flex: 0 0 auto;
-  width: 41.6666666667%;
-}
-.post_navigatio .col-2{
-  flex: 0 0 auto;
-  width: 16.6666666667%;
-}
-.post_navigatio a{
-  
-}
-.post_navigatio .post_nav_perv{
-  
+  padding: 2.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-white);
 }
 
+.post-navigation .navig {
+  display: flex;
+  column-gap: 1rem;
+}
+.nav-back .icon{
+  transform: rotate(180deg);
+}
 
+.nav-home .icon{
+  width: 2.5rem;
+  height: 2.5rem;
 
-
-
-
-
-
+}
 
 .sidebar {
   width: 30%;
