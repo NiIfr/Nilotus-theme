@@ -56,7 +56,7 @@
   background-color: var(--color-white);
 }
 
-.post-navigation .navig {
+.post-navigation .navig  a{
   display: flex;
   column-gap: 1rem;
 }
@@ -69,6 +69,33 @@
   height: 2.5rem;
 
 }
+
+
+.author{
+  width: 100%;
+  display: flex;
+  background-color: var(--color-white);
+  column-gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem;
+
+}
+.author .author-img {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.author .author-img img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.author .author-img span {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
 
 .sidebar {
   width: 30%;
