@@ -1,0 +1,23 @@
+/*Panel*/
+.panel-head {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .panel-side {
+    background-color: var(--color-bgsec);
+    height: 100vh;
+    width: 235px;
+    
+  }
+
+  .panel-side .panel-menu {
+    display:flex ;
+    flex-direction: column;
+ align-items: center;
+  }
+
+   .panel-side .panel-menu  .menu-item {}

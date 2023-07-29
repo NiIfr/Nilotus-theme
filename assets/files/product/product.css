@@ -749,20 +749,7 @@ input[type="submit"] {
   padding: 15px 20px;
 }
 
-/*Panel*/
-.panel-head {
-  background-color: var(--color-primary);
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  top: 0;
-}
 
-.panel-side {
-  background-color: var(--color-bgsec);
-  height: 100vh;
-  width: 235px;
-}
 .fade-in-text {
   display: flex;
   align-items: end;
@@ -782,3 +769,5 @@ input[type="submit"] {
   }
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
+
+
