@@ -1,0 +1,36 @@
+.single {
+    width: 100%;
+    margin-top: 19rem;
+  }
+  .single-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-single {
+    background-color: #fff;
+    width: 75%;
+    margin: 20px 0 20px 10px;
+    padding: 1rem 2rem;
+  }
+  .box-post-meta {
+    display: flex;
+    column-gap: 3rem;
+    margin-top: 1.3rem;
+  }
+  .post-meta {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    column-gap: 0.5rem;
+  }
+  .post-meta span {
+    color: #9496a9;
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: orange;
+    margin: 20px 0;
+    height: 30rem;
+  }
+  
