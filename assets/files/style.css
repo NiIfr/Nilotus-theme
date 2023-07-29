@@ -310,8 +310,8 @@ input:focus {
 .top-header_content .phone-menu span {
   font-size: 1.5rem;
   font-weight: 400;
+  color: #fff;
 }
-
 .top-header_content .phone-menu i {
   font-size: 1.6rem;
   display: inline-block;
