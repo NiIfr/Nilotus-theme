@@ -51,10 +51,18 @@ body {
   margin-right: 0.5rem;
 
 }
-
+.dashboard-nav a.exit:hover {
+    color: var(--color-red);
+    margin-right: 0.5rem;
+  
+  }
 
 .dashboard-nav a.active {
     background-color: #c7d2fe6e;
+}
+.dashboard-nav a.active.exit {
+    background-color: #fecdd3;
+    color: #f44336;
 }
 
 .dashboard-header2{
