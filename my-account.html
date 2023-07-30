@@ -1,129 +1,193 @@
-
-
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom WordPress Dashboard</title>
     <link rel="stylesheet" href="./assets/files/style.css" />
-
     <link rel="stylesheet" href="./assets/css/font.css" />
-    <link rel="stylesheet" href="/assets/files/my-account/my-acount.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/assets/files/my-account/my-acount.css" />
+  </head>
+  <body>
     <div class="dashboard-container">
-        <div class="header-dashboard">
-            <div  class="panel-head">
+      <div class="header-dashboard">
+        <div class="panel-head">
+          <a class="nav-logo" href="#">
+            <img src="assets/images/logo.jpg" />
+            <h2>آکادمی نیلوفر وفایی</h2>
+          </a>
+        </div>
+      </div>
+      <aside class="dashboard-sidebar">
+        <div class="logo"></div>
+        <nav class="dashboard-nav">
+          <ul>
+            <li>
+              <a class="menu-item active" data-content="profile" href="#">
+                <svg class="icon-panel">
+                  <use xlink:href="/assets/images/svg-sprite.svg#profile"></use>
+                </svg>
+                پروفایل من</a
+              >
+            </li>
 
-                <a class="nav-logo" href="#">
-                    <img src="assets/images/logo.jpg" />
-                    <h2>آکادمی نیلوفر وفایی</h2>
-                  </a>
-            
-          
-    
-        </div>
-        </div>
-        <aside class="dashboard-sidebar">
-            <div class="logo">
-                
+            <li>
+              <a class="menu-item" data-content="order" href="#">
+                <svg class="icon-panel">
+                  <use xlink:href="/assets/images/svg-sprite.svg#bag"></use>
+                </svg>
+                سفارش های من</a
+              >
+            </li>
+            <li>
+              <a class="menu-item" data-content="license" href="#">
+                <svg class="icon-panel">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#password"
+                  ></use>
+                </svg>
+                لایسنس های من</a
+              >
+            </li>
+            <li>
+              <a class="menu-item" data-content="wallet" href="#">
+                <svg class="icon-panel">
+                  <use xlink:href="/assets/images/svg-sprite.svg#wallet"></use>
+                </svg>
+                کیف پول من</a
+              >
+            </li>
+            <li>
+              <a class="menu-item" data-content="support" href="#">
+                <svg class="icon-panel">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#chat-border"
+                  ></use>
+                </svg>
+                ارتباط با پشتیبانی</a
+              >
+            </li>
+            <li>
+              <a class="menu-item exit" data-content="exit" href="#">
+                <svg class="icon-panel">
+                  <use xlink:href="/assets/images/svg-sprite.svg#logout"></use>
+                </svg>
+                خروج</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="dashboard-content">
+        <div class="content dash-profile active" id="content-profile">
+          <div class="info-notif box-shadow">
+            <div class="icon-notif">
+              <svg class="icon-large">
+                <use
+                  xlink:href="/assets/images/svg-sprite.svg#Notification"
+                ></use>
+              </svg>
+              <h3>اطلاعیه ها</h3>
             </div>
-            <nav class="dashboard-nav">
-                <ul>
-                    <li>
-                        
-                          <a class="menu-item active" data-content="profile" href="#">
-                            <svg class="icon-panel">
-                                <use xlink:href="/assets/images/svg-sprite.svg#profile"></use>
-                              </svg>
-                            پروفایل من</a>
-                         </li>
+            <div class="notification">
+              <p>هیچ اطلاعیه ای ثبت نشده است!</p>
+            </div>
+            <div class="notification">
+              <p>
+                انتشارات جیحون دنیایی از کتاب های صوتی در حوزه های روانشناسی،
+                رمان و داستان، ادبیات، مدیریت و موفقیت، دین و فلسفه و... تولید
+                کرده است که شما میتوانید با ورود به کانال نشر جیحون در شنوتو به
+                آنها دسترسی داشته باشد.
+              </p>
+            </div>
+          </div>
+          <h3> سوابق من</h3>
+          <div class="information">
+            
+            <div class="info box-shadow">
+              <svg class="icon-large">
+                <use xlink:href="/assets/images/svg-sprite.svg#calender"></use>
+              </svg>
+              <div class="info-content"><h4>تاریخ عضویت :</h4> <span>21</span></div>
+            </div>
 
-                    <li >
-                       
-                          <a class="menu-item" data-content="order" href="#">
-                            <svg class="icon-panel">
-                                <use xlink:href="/assets/images/svg-sprite.svg#bag"></use>
-                              </svg>
-                            سفارش های من</a>
-                         </li>
-                    <li>
-                        
-                          <a class="menu-item" data-content="license" href="#">
-                            <svg class="icon-panel">
-                                <use xlink:href="/assets/images/svg-sprite.svg#password"></use>
-                              </svg>
-                            لایسنس های من</a>
-        
-                         </li>
-                    <li>
-                 
-                          <a  class="menu-item" data-content="wallet" href="#">
-                            <svg class="icon-panel">
-                                <use xlink:href="/assets/images/svg-sprite.svg#wallet"></use>
-                              </svg>
-                            کیف پول من</a>
-        
-                          </li>
-                    <li >
-                       
-                          <a class="menu-item" data-content="support" href="#">
-                            <svg class="icon-panel">
-                                <use xlink:href="/assets/images/svg-sprite.svg#chat-border"></use>
-                              </svg>
-                            ارتباط با پشتیبانی</a>
-        
-                          </li>
-                    <li >
-                        
-                          <a  class="menu-item exit" data-content="exit" href="#">
-                            <svg class="icon-panel">
-                                <use xlink:href="/assets/images/svg-sprite.svg#logout"></use>
-                              </svg>
-                            خروج</a>
-        
-                        </li>
-                    <!-- Add more menu items as needed -->
-                </ul>
-            </nav>
-        </aside>
-        <main class="dashboard-content">
+            <div class="info box-shadow">
+              <svg class="icon-large">
+                <use xlink:href="/assets/images/svg-sprite.svg#bag"></use>
+              </svg>
+              <div class="info-content"><h4>تعداد دوره های خریداری شده :</h4> <span>21</span></div>
+            </div>
 
+            <div class="info box-shadow">
+              <svg class="icon-large">
+                <use xlink:href="/assets/images/svg-sprite.svg#chat-border"></use>
+              </svg>
+              <div class="info-content"><h4>تعداد دیدگاه های ثبت شده :</h4> <span>21</span></div>
+            </div>
 
-         
+            <div class="info box-shadow">
+              <svg class="icon-large">
+                <use xlink:href="/assets/images/svg-sprite.svg#mail"></use>
+              </svg>
+              <div class="info-content"><h4>محصولات سایت :</h4> <span>21</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="content dash-order" id="content-order">
+            <div class="order">
+                <h3>سفارش های من</h3>
+                
+                <div class="order-content">
+                    <div class="notification">
+                        <p>هیچ اطلاعیه ای ثبت نشده است!</p>
+                      </div>
+                </div>
 
-
- <!-- Content Area -->
- <div class="content" id="content-home">
-    <!-- Home Dashboard Content -->
-    <h2>Welcome to the Dashboard</h2>
-    <!-- Add home dashboard content here -->
-  </div>
-  <div class="content" id="content-analytics">
-    <!-- Analytics Dashboard Content -->
-    <h2>Analytics Dashboard</h2>
-    <!-- Add analytics dashboard content here -->
-  </div>
-  <div class="content" id="content-settings">
-    <!-- Settings Dashboard Content -->
-    <h2>Settings Dashboard</h2>
-    <!-- Add settings dashboard content here -->
-  </div>
-
-
-
-            <div class="content dash-profile" id="content-profile"> profile</div>
-            <div class="content dash-order" id="content-order">order</div>
-            <div class="content dash-license" id="content-license">license</div>
-            <div class="content dash-wallet" id="content-wallet">wallet</div>
-            <div class="content dash-support" id="content-support">support</div>
-
-         
-        </main>
+                <div class="order-content">
+                  <table>
+                    <thead>
+                        <tr>
+                            <th>کد سفارش</th>
+                            <th>شرح سفارش</th>
+                            <th>تاریخ</th>
+                            <th>مبلغ</th>
+                            <th>وضعیت سفارش</th>
+                        </tr>
+                    </thead>
+                  <tbody>
+                    <tr>
+                        <td>#1563</td>
+                        <td>دوره آموزش طراحی سایت</td>
+                        <td>12/4/1402 </td>
+                        <td>2150 میلیون</td>
+                        <td>موفق</td>
+                    </tr>
+                    <tr>
+                        <td>#1563</td>
+                        <td>دوره آموزش طراحی سایت</td>
+                        <td>12/4/1402 </td>
+                        <td>2150 میلیون</td>
+                        <td>موفق</td>
+                    </tr>
+                    <tr>
+                        <td>#1563</td>
+                        <td>دوره آموزش طراحی سایت</td>
+                        <td>12/4/1402 </td>
+                        <td>2150 میلیون</td>
+                        <td>موفق</td>
+                    </tr>
+                  </tbody>
+                    
+                  </table>
+                </div>
+            </div>
+        </div>
+        <div class="content dash-license" id="content-license">license</div>
+        <div class="content dash-wallet" id="content-wallet">wallet</div>
+        <div class="content dash-support" id="content-support">support</div>
+      </main>
     </div>
 
     <script src="/assets/files/my-account/my-account.js"></script>
-</body>
+  </body>
 </html>
-
