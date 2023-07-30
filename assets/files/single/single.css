@@ -191,6 +191,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.post_content h6 a:hover {
+  margin-right: 0.5rem;
+  color: var(--color-primary);
+}
 .post_content p {
   font-size: 1.1rem;
   color: #9b9eae;
