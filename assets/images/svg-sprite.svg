@@ -360,6 +360,41 @@
     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8562 6.1438C5.8562 5.72959 6.19199 5.3938 6.6062 5.3938H10.6662C11.0804 5.3938 11.4162 5.72959 11.4162 6.1438C11.4162 6.55801 11.0804 6.8938 10.6662 6.8938H6.6062C6.19199 6.8938 5.8562 6.55801 5.8562 6.1438Z" fill="#5557DD"></path>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25573 4.13445C3.04345 5.24742 2.46411 7.10491 2.46411 10.2533C2.46411 13.4011 3.04343 15.2587 4.25576 16.3718C5.48734 17.5026 7.5581 18.0423 11.0151 18.0423C14.4715 18.0423 16.542 17.5026 17.7735 16.3718C18.9857 15.2587 19.5651 13.4011 19.5651 10.2533C19.5651 7.10491 18.9857 5.24741 17.7735 4.13443C16.5421 3.00376 14.4716 2.46423 11.0151 2.46423C7.55804 2.46423 5.4873 3.00377 4.25573 4.13445ZM3.2413 3.02949C4.91616 1.49184 7.4959 0.964233 11.0151 0.964233C14.5338 0.964233 17.1133 1.49184 18.788 3.02952C20.482 4.58487 21.0651 6.99689 21.0651 10.2533C21.0651 13.5092 20.482 15.9212 18.788 17.4767C17.1133 19.0145 14.5338 19.5423 11.0151 19.5423C7.49584 19.5423 4.91612 19.0145 3.24127 17.4767C1.54717 15.9212 0.964111 13.5092 0.964111 10.2533C0.964111 6.99689 1.54716 4.58485 3.2413 3.02949Z" fill="#5557DD"></path>
   </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="voice">
+    <g id="Iconly/Curved/Light/Voice">
+      <g id="Voice">
+        <path id="Stroke 1" d="M6.36487 13.6785C6.36487 16.8095 8.90287 19.3475 12.0339 19.3475C15.1659 19.3475 17.7039 16.8095 17.7039 13.6785" stroke="#3B3ECF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 3" d="M17.7037 10.4231V8.16912C17.7037 5.03812 15.1657 2.50012 12.0337 2.50012C8.90275 2.50012 6.36475 5.03812 6.36475 8.16912V10.4231" stroke="#3B3ECF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 5" d="M12.0338 21.4998V19.3478" stroke="#3B3ECF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 7" d="M4.90002 13.6785H19.168" stroke="#3B3ECF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="play">
+    <g id="Iconly/Curved/Light/Play">
+      <g id="Play">
+        <path id="Stroke 1" fill-rule="evenodd" clip-rule="evenodd" d="M2.75 12.0002C2.75 18.9372 5.063 21.2502 12 21.2502C18.937 21.2502 21.25 18.9372 21.25 12.0002C21.25 5.06324 18.937 2.75024 12 2.75024C5.063 2.75024 2.75 5.06324 2.75 12.0002Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 3" fill-rule="evenodd" clip-rule="evenodd" d="M15.416 11.8557C15.416 10.9517 10.832 8.05965 10.312 8.57965C9.79304 9.09965 9.74204 14.5627 10.312 15.1317C10.883 15.7027 15.416 12.7597 15.416 11.8557Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="edit">
+    <g id="Iconly/Curved/Light/Edit">
+      <g id="Edit">
+        <path id="Stroke 1" d="M13.3352 19.5079H19.7122" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 3" fill-rule="evenodd" clip-rule="evenodd" d="M16.0578 4.85901V4.85901C14.7138 3.85101 12.8078 4.12301 11.7998 5.46601C11.7998 5.46601 6.78679 12.144 5.04779 14.461C3.30879 16.779 4.95379 19.651 4.95379 19.651C4.95379 19.651 8.19779 20.397 9.91179 18.112C11.6268 15.828 16.6638 9.11701 16.6638 9.11701C17.6718 7.77401 17.4008 5.86701 16.0578 4.85901Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 5" d="M10.5042 7.21149L15.3682 10.8625" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="message">
+    <g id="Iconly/Curved/Light/Message">
+      <g id="Message">
+        <path id="Stroke 1" d="M17.5448 9.01913C17.5448 9.01913 14.3348 12.8718 11.9869 12.8718C9.64004 12.8718 6.39392 9.01913 6.39392 9.01913" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path id="Stroke 3" fill-rule="evenodd" clip-rule="evenodd" d="M2.45203 11.9689C2.45203 5.13081 4.83298 2.85211 11.9758 2.85211C19.1187 2.85211 21.4996 5.13081 21.4996 11.9689C21.4996 18.806 19.1187 21.0857 11.9758 21.0857C4.83298 21.0857 2.45203 18.806 2.45203 11.9689Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </g>
+    </g>
+  </symbol>
 </svg>
 
 
