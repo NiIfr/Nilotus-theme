@@ -51,28 +51,24 @@
   margin: 3rem 0;
   padding: 3rem 1rem;
 }
-.post_navigatio .col-5{
+.nav-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post_navigatio .col-5 {
   flex: 0 0 auto;
-  width: 41.6666666667%;
+  width: 39%;
 }
-.post_navigatio .col-2{
+.post_navigatio .col-2 {
   flex: 0 0 auto;
-  width: 16.6666666667%;
+  width: 18%;
 }
-.post_navigatio a{
-  
+.post_navigatio a {
 }
-.post_navigatio .post_nav_perv{
-  
+.post_navigatio .post_nav_perv {
 }
-
-
-
-
-
-
-
-
 
 .sidebar {
   width: 30%;
