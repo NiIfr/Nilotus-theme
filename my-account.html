@@ -33,7 +33,7 @@
                 <ul>
                     <li>
                         
-                          <a class="menu-item active"  href="#">
+                          <a class="menu-item active" data-content="profile" href="#">
                             <svg class="icon-panel">
                                 <use xlink:href="/assets/images/svg-sprite.svg#profile"></use>
                               </svg>
@@ -42,7 +42,7 @@
 
                     <li >
                        
-                          <a class="menu-item" href="#">
+                          <a class="menu-item" data-content="order" href="#">
                             <svg class="icon-panel">
                                 <use xlink:href="/assets/images/svg-sprite.svg#bag"></use>
                               </svg>
@@ -50,7 +50,7 @@
                          </li>
                     <li>
                         
-                          <a class="menu-item"  href="#">
+                          <a class="menu-item" data-content="license" href="#">
                             <svg class="icon-panel">
                                 <use xlink:href="/assets/images/svg-sprite.svg#password"></use>
                               </svg>
@@ -59,7 +59,7 @@
                          </li>
                     <li>
                  
-                          <a  class="menu-item" href="#">
+                          <a  class="menu-item" data-content="wallet" href="#">
                             <svg class="icon-panel">
                                 <use xlink:href="/assets/images/svg-sprite.svg#wallet"></use>
                               </svg>
@@ -68,7 +68,7 @@
                           </li>
                     <li >
                        
-                          <a class="menu-item" href="#">
+                          <a class="menu-item" data-content="support" href="#">
                             <svg class="icon-panel">
                                 <use xlink:href="/assets/images/svg-sprite.svg#chat-border"></use>
                               </svg>
@@ -77,7 +77,7 @@
                           </li>
                     <li >
                         
-                          <a  class="menu-item exit" href="#">
+                          <a  class="menu-item exit" data-content="exit" href="#">
                             <svg class="icon-panel">
                                 <use xlink:href="/assets/images/svg-sprite.svg#logout"></use>
                               </svg>
@@ -89,15 +89,37 @@
             </nav>
         </aside>
         <main class="dashboard-content">
-            <header class="dashboard-header2">
-                <h1>Welcome to Your Dashboard</h1>
-            </header>
-            <section class="dashboard-stats">
-                <!-- Your dashboard statistics and charts here -->
-            </section>
-            <section class="dashboard-widgets">
-                <!-- Your dashboard widgets or modules here -->
-            </section>
+
+
+         
+
+
+ <!-- Content Area -->
+ <div class="content" id="content-home">
+    <!-- Home Dashboard Content -->
+    <h2>Welcome to the Dashboard</h2>
+    <!-- Add home dashboard content here -->
+  </div>
+  <div class="content" id="content-analytics">
+    <!-- Analytics Dashboard Content -->
+    <h2>Analytics Dashboard</h2>
+    <!-- Add analytics dashboard content here -->
+  </div>
+  <div class="content" id="content-settings">
+    <!-- Settings Dashboard Content -->
+    <h2>Settings Dashboard</h2>
+    <!-- Add settings dashboard content here -->
+  </div>
+
+
+
+            <div class="content dash-profile" id="content-profile"> profile</div>
+            <div class="content dash-order" id="content-order">order</div>
+            <div class="content dash-license" id="content-license">license</div>
+            <div class="content dash-wallet" id="content-wallet">wallet</div>
+            <div class="content dash-support" id="content-support">support</div>
+
+         
         </main>
     </div>
 
