@@ -119,3 +119,31 @@
   color: #64748b;
   line-height: 1.9;
 }
+/* Single Radio */
+.box_radio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto 1rem;
+}
+.dl_radio {
+  width: 20%;
+  text-align: center;
+}
+.dl_radio a {
+  padding: 1rem;
+  border-radius: 1.4rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.dl_radio a:hover {
+  background-color: var(--color-hover);
+}
+.content .radio_audio {
+  width: 80%;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 1.4rem;
+}
