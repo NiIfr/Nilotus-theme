@@ -103,6 +103,3 @@
   border-color: var(--color-hover);
   color: #fff;
 }
-.pagination .page_item .page_link:hover svg path {
-  stroke: #fff !important;
-}
