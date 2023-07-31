@@ -10,79 +10,84 @@
     <link rel="stylesheet" href="./assets/files/header.css" />
     <link rel="stylesheet" href="./assets/files/footer.css" />
     <link rel="stylesheet" href="./assets/css/font.css" />
+    <link rel="stylesheet" href="./assets/files/responsive.css" />
 
     <title>نیلوفر وفایی</title>
   </head>
   <body>
     <!--Start Header-->
-    <header class="header relative box-shadow">
-      <div class="fixed">
-        <div class="top-header">
-          <div class="top-header_content container">
-            <div class="menu-top">
-              <ul>
-                <li><a href="#">آموزش وردپرس</a></li>
-                <li><a href="#">آموزش اینستاگرام</a></li>
-                <li><a href="#">آموزش Adobe XD</a></li>
-              </ul>
-            </div>
-            <div class="phone-menu">
-              <span>09300822695</span>
-              <span class="icon-container">
-                <svg class="icon">
-                  <use xlink:href="/assets/images/svg-sprite.svg#calling"></use>
-                </svg>
-              </span>
-              <span>info@niloo.com</span>
-              <span class="icon-container">
-                <svg class="icon">
-                  <use xlink:href="/assets/images/svg-sprite.svg#mail"></use>
-                </svg>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="bottom-header container">
-          <a class="nav-logo" href="#">
-            <img src="assets/images/logo.jpg" />
-          </a>
-          <nav class="navbar">
-            <ul>
-              <li><a href="#">خانه</a></li>
-              <li><a href="#">آموزش</a></li>
-              <li><a href="#">فروشگاه</a></li>
-              <li><a href="#">وبلاگ</a></li>
-              <li><a href="#">درباره من</a></li>
-              <li><a href="#">تماس با من</a></li>
-            </ul>
-          </nav>
-          <div class="login">
-            <a href="#"
-              ><span class="icon-container">
-                <svg class="icon">
-                  <use xlink:href="/assets/images/svg-sprite.svg#search"></use>
-                </svg>
-              </span>
-            </a>
-            <a href="#"
-              ><span class="icon-container">
-                <svg class="icon">
-                  <use xlink:href="/assets/images/svg-sprite.svg#buy"></use>
-                </svg>
-              </span>
-            </a>
+   
+    <div class="top-head">
+      <div class="top container">
 
-            <a href="#"
-              ><span class="icon-container">
-                <svg class="icon">
-                  <use xlink:href="/assets/images/svg-sprite.svg#profile"></use>
-                </svg>
-              </span>
-            </a>
-          </div>
+      <div class="menu-top">
+          <ul>
+            <li><a href="#">آموزش وردپرس</a></li>
+            <li><a href="#">آموزش اینستاگرام</a></li>
+            <li><a href="#">آموزش Adobe XD</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-me">
+          <span>09300822695</span>
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="/assets/images/svg-sprite.svg#calling"></use>
+            </svg>
+          </span>
+          <span>info@niloo.com</span>
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="/assets/images/svg-sprite.svg#mail"></use>
+            </svg>
+          </span>
         </div>
       </div>
-    </header>
+  </div>
+  <div class="sticky-head">
+     
+      <div class="sticky container">
+          
+      <a class="nav-logo" href="#">
+          <img src="assets/images/logo.jpg" />
+        </a>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">خانه</a></li>
+            <li><a href="#">آموزش</a></li>
+            <li><a href="#">فروشگاه</a></li>
+            <li><a href="#">وبلاگ</a></li>
+            <li><a href="#">درباره من</a></li>
+            <li><a href="#">تماس با من</a></li>
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="#"
+            ><span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="/assets/images/svg-sprite.svg#search"></use>
+              </svg>
+            </span>
+          </a>
+          <a href="#"
+            ><span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="/assets/images/svg-sprite.svg#buy"></use>
+              </svg>
+            </span>
+          </a>
+
+          <a href="#"
+            ><span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="/assets/images/svg-sprite.svg#profile"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+  </div>
     <!--End Header-->
 
     <!--Start  hero-->
@@ -532,10 +537,15 @@
           <div class="container">
             <div class="radio box-shadow">
             <div class="radio_title">
+            <div class="right">
               <svg class="icon-large">
                 <use xlink:href="/assets/images/svg-sprite.svg#voice"></use>
               </svg>
-              <h5>رادیونیل !</h5>            
+              <h5>رادیونیل !</h5>    
+            </div>  
+            <div class="left">
+              <a href="#" class="btn">مشاهده همه</a>
+            </div>      
             </div>
             <div class="radio_slide">
               <div class="radio_box">
@@ -892,8 +902,12 @@
                 در سوشال مدیا
               </h4>
               <p>
-                از خبرها دور نباشید
-                <i class="fal fa-long-arrow-left"></i>
+                 از خبرها دور نباشید
+                
+                <svg class="icon-large">
+                  <use xlink:href="/assets/images/svg-sprite.svg#Arrow-news"></use>
+                </svg>
+
               </p>
             </div>
             <!-- social -->
@@ -1183,6 +1197,15 @@
         </div>
       </div>
     </footer>
+
+    <div class="mobile-menu-down">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
     <!-- End Footer -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>

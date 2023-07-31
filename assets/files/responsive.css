@@ -1,0 +1,56 @@
+/* index page Hero*/
+
+@media screen and (max-width: 1420px) {
+    .container-hero {
+      transition: all 0.3s ease 0s;
+      max-width: 996px;
+      margin: 0 auto;
+    }
+  
+    .hero .main-hero .hero_text {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 1045px) {
+    .hero .main-hero .hero_img {
+      transition: all 0.3s ease 0s;
+  
+      width: 100%;
+    }
+  
+    .hero .main-hero {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .hero .main-hero .hero_img {
+      order: -1;
+    }
+    .container-hero {
+      transition: all 0.3s ease 0s;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .hero .main-hero .hero_text {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+/* index mobe down menu*/
+
+  @media screen and (max-width:650px) {
+    .mobile-menu-down {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+   display: block;
+    }
+  }

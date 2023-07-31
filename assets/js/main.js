@@ -1,16 +1,4 @@
-// Sticky Header
-$(window).on('scroll', function () {
-    let scroll = $(window).scrollTop();
 
-    if (scroll >= 150) {
-        $('.top-header').addClass('none');
-        $('.bottom-header').addClass('down');
-
-    } else {
-        $('.top-header').removeClass('none');
-        $('.bottom-header').removeClass('down');
-    }
-});
 // Number Counter
 const counters = document.querySelectorAll('.value');
 const speed = 200;
