@@ -1,6 +1,6 @@
 .single {
   width: 100%;
-  margin-top: 19rem;
+  margin-top: 8rem;
 }
 .single-flex {
   display: flex;
@@ -119,5 +119,3 @@
   color: #64748b;
   line-height: 1.9;
 }
-
-

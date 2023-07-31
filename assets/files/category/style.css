@@ -1,6 +1,6 @@
 .single {
   width: 100%;
-  margin-top: 19rem;
+  margin-top: 8rem;
 }
 .single-flex {
   display: flex;
@@ -75,7 +75,15 @@
   width: 92%;
 }
 .meta_article p {
+  font-size: 1.2rem;
+  display: flex;
+  column-gap: 0.3rem;
+  align-items: center;
   padding: 0;
+  margin: 0;
+}
+.meta_article p a:hover {
+  color: var(--color-hover);
 }
 
 /* Navigation */

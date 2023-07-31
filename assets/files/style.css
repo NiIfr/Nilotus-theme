@@ -304,11 +304,9 @@ input:focus {
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
 .full-width {
   width: 100% !important;
 }
-=======
 
 
 
@@ -597,4 +595,3 @@ audio::-webkit-media-controls-fullscreen-volume-min-button, video::-webkit-media
 audio::-webkit-media-controls-fullscreen-volume-max-button, video::-webkit-media-controls-fullscreen-volume-max-button {
   display: none;
 }
->>>>>>> 6d8381635ea6e89d4703937f45e3e6f4c6f99382
