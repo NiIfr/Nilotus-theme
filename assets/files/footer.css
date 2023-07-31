@@ -281,9 +281,9 @@ footer.footer {
   }
   
   .footer .footer-bottom {
-    background: var(--color-headings);
+    background: #2e2e2e;
     padding: 2.4rem 0;
-  }
+}
   
   .footer .footer-bottom .flex p,
   .footer .footer-bottom .flex span {
