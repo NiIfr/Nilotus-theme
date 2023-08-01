@@ -374,16 +374,11 @@
   }
   .course-side .course-side_item a:hover{
     color: var(--color-primary);
-    font-weight: 800;
-    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    
+    border-bottom: 2px solid var(--color-primary);
 
     }
-.course-side .course-side_item a:hover::before{
-color: var(--color-primary);
-font-weight: 800;
-content: "\f111";
-transition: all 0.3s ease-in-out;
-}
 
 
 .course-side .side-teacher {

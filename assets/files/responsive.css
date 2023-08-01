@@ -190,7 +190,7 @@ align-items: center;
     }
     .radio{
       align-items: center;
-     width: 90vw;
+     width: 100%;
       margin: auto 0;
       margin: 3rem 0;
 
@@ -255,4 +255,48 @@ align-items: center;
       left: 12rem;
      
     }
+  }
+
+
+
+
+
+
+
+
+  /* product page*/
+
+  @media screen and (max-width:700px) {
+   
+.broadcamp  .broadcamp-path {
+  font-size: 1.2rem ;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+.main-course .course .course-head {
+  flex-direction: column;
+}
+.main-course .course .course-head .course-thumbnail {
+
+  width: 100%;
+  order:-1;
+}
+
+.main-course .course .course-head .course-short__des {
+  width: 100%;
+  text-align: center;
+}
+.main-course .course .course-head .course-short__des .des-register {
+  
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.course-side{
+  display: none;
+}
+.main-course .course .course-down .course-content {
+  width: 100%;
+  margin: 10px;
+}
   }
