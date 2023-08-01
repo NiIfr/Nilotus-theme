@@ -738,14 +738,24 @@ padding: 2rem;
 row-gap: 2rem;
 
 }
-.article-blogs .blogs .the-blog .img-blog {
-overflow: hidden;
+.article-blogs .blogs .the-blog .img-sec {
+position: relative;
+border-bottom: 1px solid #ddd;
 
 }
-.article-blogs .blogs .the-blog .img-blog img{
+
+.article-blogs .blogs .the-blog .img-sec .blog-img{
   width: 329px;
 height: 212px;
 
+}
+.article-blogs .blogs .the-blog .img-sec .author-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -30px;
+  left: 35px;
 }
 
 .article-blogs .blogs .the-blog .blog-info {
