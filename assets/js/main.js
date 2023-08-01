@@ -33,4 +33,9 @@ let customerSwiper = new Swiper(".customer-swiper", {
 
 
 
-
+  const togglermenu= document.querySelector(".nav__toggler");
+  const humbermenu= document.querySelector(".humber-menu");
+  togglermenu.addEventListener("click",(e)=>{
+      console.log("clicked");
+      humbermenu.classList.toggle("nav__expanded");
+  });
