@@ -226,7 +226,6 @@ input:focus {
   border-radius: 1.5rem;
   font-size: 1.6rem;
   font-weight: 700;
-  
 }
 .btn:hover,
 .btn a:hover {
@@ -309,8 +308,6 @@ input:focus {
   width: 100% !important;
 }
 
-
-
 /*Scroll Bar*/
 ::-webkit-scrollbar {
   width: 1rem;
@@ -334,8 +331,6 @@ input:focus {
 }
 /*Scroll Bar*/
 
-
- 
 audio {
   width: 100%;
   height: 30px;
@@ -351,7 +346,8 @@ video::-webkit-media-controls {
   justify-content: flex-end;
   align-items: center;
 }
-audio::-webkit-media-controls-enclosure, video::-webkit-media-controls-enclosure {
+audio::-webkit-media-controls-enclosure,
+video::-webkit-media-controls-enclosure {
   width: 100%;
   max-width: 800px;
   height: 30px;
@@ -366,7 +362,8 @@ video::-webkit-media-controls-enclosure {
   height: 35px;
   flex-shrink: 0;
 }
-audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+audio::-webkit-media-controls-panel,
+video::-webkit-media-controls-panel {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -382,7 +379,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
   text-align: right;
   bottom: auto;
   height: 30px;
-  background-color:var(--color-white);
+  background-color: var(--color-white);
   border-radius: 1px;
   /* The duration is also specified in MediaControlElements.cpp and LayoutTests/media/media-controls.js */
   transition: opacity 0.3s;
@@ -395,7 +392,8 @@ video:-webkit-full-page-media {
   bottom: 0;
   left: 0;
 }
-audio:-webkit-full-page-media, video:-webkit-full-page-media {
+audio:-webkit-full-page-media,
+video:-webkit-full-page-media {
   max-height: 100%;
   max-width: 100%;
 }
@@ -403,13 +401,14 @@ audio:-webkit-full-page-media::-webkit-media-controls-panel,
 video:-webkit-full-page-media::-webkit-media-controls-panel {
   bottom: 0px;
 }
-audio::-webkit-media-controls-mute-button, video::-webkit-media-controls-mute-button {
+audio::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-mute-button {
   -webkit-appearance: media-mute-button;
   display: flex;
   flex: none;
   border: none;
   box-sizing: border-box;
-  
+
   width: 35px;
   height: 30px;
   line-height: 30px;
@@ -441,7 +440,7 @@ video::-webkit-media-controls-overlay-play-button {
   top: 50%;
   left: 50%;
   margin-left: -40px;
-  color:#ef4444;
+  color: #ef4444;
   margin-top: -40px;
   border: none;
   box-sizing: border-box;
@@ -450,7 +449,8 @@ video::-webkit-media-controls-overlay-play-button {
   height: 80px;
   padding: 0;
 }
-audio::-webkit-media-controls-play-button, video::-webkit-media-controls-play-button {
+audio::-webkit-media-controls-play-button,
+video::-webkit-media-controls-play-button {
   -webkit-appearance: media-play-button;
   display: flex;
   flex: none;
@@ -466,7 +466,8 @@ audio::-webkit-media-controls-play-button, video::-webkit-media-controls-play-bu
   background-color: initial;
   color: inherit;
 }
-audio::-webkit-media-controls-timeline-container, video::-webkit-media-controls-timeline-container {
+audio::-webkit-media-controls-timeline-container,
+video::-webkit-media-controls-timeline-container {
   -webkit-appearance: media-controls-background;
   display: flex;
   flex-direction: row;
@@ -479,8 +480,10 @@ audio::-webkit-media-controls-timeline-container, video::-webkit-media-controls-
   height: 16px;
   min-width: 0;
 }
-audio::-webkit-media-controls-current-time-display, video::-webkit-media-controls-current-time-display,
-audio::-webkit-media-controls-time-remaining-display, video::-webkit-media-controls-time-remaining-display {
+audio::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-time-remaining-display {
   -webkit-appearance: media-current-time-display;
   -webkit-user-select: none;
   flex: none;
@@ -503,7 +506,8 @@ audio::-webkit-media-controls-time-remaining-display, video::-webkit-media-contr
   text-shadow: none;
   text-decoration: none;
 }
-audio::-webkit-media-controls-timeline, video::-webkit-media-controls-timeline {
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
   -webkit-appearance: media-slider;
   display: flex;
   flex: 1 1 auto;
@@ -515,7 +519,8 @@ audio::-webkit-media-controls-timeline, video::-webkit-media-controls-timeline {
   border: initial;
   color: initial;
 }
-audio::-webkit-media-controls-volume-slider, video::-webkit-media-controls-volume-slider {
+audio::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-volume-slider {
   -webkit-appearance: media-volume-slider;
   display: flex;
   /* The 1.9 value was empirically chosen to match old-flexbox behaviour
@@ -524,7 +529,7 @@ audio::-webkit-media-controls-volume-slider, video::-webkit-media-controls-volum
   flex: 1 3 auto;
   height: 2px;
   max-width: 90px;
- 
+
   padding: 15px;
   background-color: transparent;
   min-width: 30px;
@@ -554,7 +559,8 @@ input[type="range" i]::-webkit-media-slider-thumb {
   margin-left: -7px;
   margin-right: -7px;
 }
-audio::-webkit-media-controls-fullscreen-button, video::-webkit-media-controls-fullscreen-button {
+audio::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-fullscreen-button {
   -webkit-appearance: media-enter-fullscreen-button;
   display: flex;
   flex: none;
@@ -587,12 +593,55 @@ video::-webkit-media-controls-toggle-closed-captions-button {
   background-color: initial;
   color: inherit;
 }
-audio::-webkit-media-controls-fullscreen-volume-slider, video::-webkit-media-controls-fullscreen-volume-slider {
+audio::-webkit-media-controls-fullscreen-volume-slider,
+video::-webkit-media-controls-fullscreen-volume-slider {
   display: none;
 }
-audio::-webkit-media-controls-fullscreen-volume-min-button, video::-webkit-media-controls-fullscreen-volume-min-button {
+audio::-webkit-media-controls-fullscreen-volume-min-button,
+video::-webkit-media-controls-fullscreen-volume-min-button {
   display: none;
 }
-audio::-webkit-media-controls-fullscreen-volume-max-button, video::-webkit-media-controls-fullscreen-volume-max-button {
+audio::-webkit-media-controls-fullscreen-volume-max-button,
+video::-webkit-media-controls-fullscreen-volume-max-button {
   display: none;
+}
+form label {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #444;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "iranyekan";
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border: 1px solid var(--color-primary);
+}
+textarea {
+  height: 150px !important;
+}
+input[type="submit"] {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
