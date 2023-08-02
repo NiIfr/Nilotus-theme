@@ -278,7 +278,8 @@ footer.footer {
   
   .footer-main .widget-footer-4 img {
     max-width: 100%;
-  }
+    border-radius: 1.5rem;
+}
   
   .footer .footer-bottom {
     background: #2e2e2e;

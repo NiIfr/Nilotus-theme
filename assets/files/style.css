@@ -10,6 +10,7 @@
 
 /* root variable */
 :root {
+  --swiper-theme-color:#5557dd !important;
   --color-primary: #5557dd;
   --color-hover: #3b3ecf;
   --color-focus: #ddd6fe;

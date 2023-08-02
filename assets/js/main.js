@@ -68,14 +68,15 @@ let customerSwiper = new Swiper(".customer-swiper", {
         },
         // Optional parameters   
      freeMode: true,
-        loop: false,
+        loop: false,    
         
-        
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev', },
+        pagination: {
+            el: ".swiper-pagination",
+          },
             autoplay: {
-                delay: 1000,
+                delay: 3000,
               },
     
       })
+
+      

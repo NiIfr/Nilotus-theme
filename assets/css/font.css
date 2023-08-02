@@ -72,6 +72,11 @@
 }
 
 
+@font-face {
+  font-family: iranyekan;
+  
+  src: url("/assets/fonts/YekanBakh-VF.ttf") format("ttf");
+}
 
 body,
 button {
