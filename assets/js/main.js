@@ -39,3 +39,43 @@ let customerSwiper = new Swiper(".customer-swiper", {
       console.log("clicked");
       humbermenu.classList.toggle("nav__expanded");
   });
+
+
+
+  /* slider of course */
+  //initialize swiper when document ready
+  
+    var swipercourse = new Swiper ('.swiper-container', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        breakpoints: {
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+          940: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          1240: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          }
+        },
+        // Optional parameters   
+     freeMode: true,
+        loop: false,
+        
+        
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev', },
+            autoplay: {
+                delay: 1000,
+              },
+    
+      })
