@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 * Start course product style*/ .main-course {
+=======
+ /*Start course product style*/
+
+.main-course {
+>>>>>>> 682597ee6bc8f60401c83ff32d7f460fad2ac2a2
   width: 100%;
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 .main-course .broadcamp {
@@ -315,6 +321,7 @@
 .course-side .course-side_item a {
   padding: 1rem;
   font-weight: 500;
+<<<<<<< HEAD
 }
 .course-side .course-side_item a:hover {
   color: var(--color-primary);
@@ -327,6 +334,17 @@
   content: "\f111";
   transition: all 0.3s ease-in-out;
 }
+=======
+  }
+  .course-side .course-side_item a:hover{
+    color: var(--color-primary);
+    font-weight: 700;
+    
+    border-bottom: 2px solid var(--color-primary);
+
+    }
+
+>>>>>>> 682597ee6bc8f60401c83ff32d7f460fad2ac2a2
 
 .course-side .side-teacher {
   display: flex;

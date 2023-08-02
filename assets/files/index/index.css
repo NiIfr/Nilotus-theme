@@ -704,3 +704,78 @@ body, html {
 .mobile-menu-down a:hover {
   background-color: #555;
 }
+
+
+/*Article of blogs */
+
+.article-blogs{
+  background-color: var(--color-white);
+  padding: 2rem;
+}
+
+.article-blogs .top-blog{
+display: flex;
+justify-content: space-between;
+}
+
+.article-blogs .blogs {
+  display: flex;
+  column-gap: 4rem;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+}
+
+.article-blogs .blogs .the-blog {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+  
+}
+.article-blogs .blogs .the-blog .blog-des{
+  display: flex;
+  flex-direction: column;
+padding: 2rem;
+row-gap: 2rem;
+
+}
+.article-blogs .blogs .the-blog .img-sec {
+position: relative;
+border-bottom: 1px solid #ddd;
+
+}
+
+.article-blogs .blogs .the-blog .img-sec .blog-img{
+  width: 329px;
+height: 212px;
+
+}
+.article-blogs .blogs .the-blog .img-sec .author-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -30px;
+  left: 35px;
+}
+
+.article-blogs .blogs .the-blog .blog-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f7fb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+.article-blogs .blogs .the-blog .blog-info span {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.article-blogs .blogs .the-blog a {
+  position: absolute;
+  bottom: -2rem;
+  left: 15rem;
+ 
+}
