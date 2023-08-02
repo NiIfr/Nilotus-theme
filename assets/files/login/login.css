@@ -74,6 +74,7 @@
   left: 0%;
 }
 .form .body .form-row {
+  position: relative;
   border-top: 1px solid #ccc;
 }
 .form .body .form-row label {
@@ -166,4 +167,46 @@
 }
 .form .body .footer .google {
   background: tomato;
+}
+/* in */
+.form-row input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-row .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.form-row input[type="text"]:focus ~ .label,
+.form-row input[type="text"]:valid ~ .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-row .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.form-row input[type="text"]:focus ~ .underline,
+.form-row input[type="text"]:valid ~ .underline {
+  transform: scaleX(1);
 }
