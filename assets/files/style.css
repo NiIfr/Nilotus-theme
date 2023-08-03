@@ -10,6 +10,7 @@
 
 /* root variable */
 :root {
+  --swiper-theme-color:#5557dd !important;
   --color-primary: #5557dd;
   --color-hover: #3b3ecf;
   --color-focus: #ddd6fe;
@@ -108,7 +109,7 @@ a:focus {
   text-decoration: none;
 }
 
-a,
+
 button,
 img,
 input,
@@ -396,8 +397,12 @@ audio::-webkit-media-controls-panel {
   transition: opacity 0.3s;
 }
 
+<<<<<<< HEAD
 audio:-webkit-full-page-media,
 video:-webkit-full-page-media {
+=======
+audio:-webkit-full-page-media, video:-webkit-full-page-media {
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   max-height: 100%;
   max-width: 100%;
 }
@@ -423,6 +428,10 @@ audio::-webkit-media-controls-overlay-enclosure {
   display: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
 audio::-webkit-media-controls-play-button {
   -webkit-appearance: media-play-button;
   display: flex;
@@ -439,7 +448,11 @@ audio::-webkit-media-controls-play-button {
   background-color: initial;
   color: inherit;
 }
+<<<<<<< HEAD
 audio::-webkit-media-controls-timeline-container {
+=======
+audio::-webkit-media-controls-timeline-container{
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   -webkit-appearance: media-controls-background;
   display: flex;
   flex-direction: row;
@@ -452,8 +465,12 @@ audio::-webkit-media-controls-timeline-container {
   height: 16px;
   min-width: 0;
 }
+<<<<<<< HEAD
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
+=======
+audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display {
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   -webkit-appearance: media-current-time-display;
   -webkit-user-select: none;
   flex: none;
@@ -552,7 +569,11 @@ audio::-webkit-media-controls-fullscreen-volume-slider {
 audio::-webkit-media-controls-fullscreen-volume-min-button {
   display: none;
 }
+<<<<<<< HEAD
 audio::-webkit-media-controls-fullscreen-volume-max-button {
+=======
+audio::-webkit-media-controls-fullscreen-volume-max-button{
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   display: none;
 }
 form label {

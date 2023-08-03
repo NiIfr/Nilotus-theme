@@ -39,3 +39,59 @@ let customerSwiper = new Swiper(".customer-swiper", {
       console.log("clicked");
       humbermenu.classList.toggle("nav__expanded");
   });
+
+
+
+  /* slider of course */
+  //initialize swiper when document ready
+  
+    var swipercourse = new Swiper ('.swiper-container', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        breakpoints: {
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+          940: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          1240: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          }
+        },
+        // Optional parameters   
+     freeMode: true,
+        loop: false,    
+        
+        pagination: {
+            el: ".swiper-pagination",
+          },
+            autoplay: {
+                delay: 3000,
+              },
+    
+      })
+
+
+
+      let scrollPercentage = () => {
+        let scrollProgress = document.getElementById("progress");
+       
+        let pos = document.documentElement.scrollTop;
+        let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrollValue = Math.round( pos * 100 / calcHeight);
+    
+        scrollProgress.style.background = `conic-gradient(#5557dd ${scrollValue}%, #c0c0ff ${scrollValue}%)`;
+        
+    }
+    
+    window.onscroll = scrollPercentage;
+    window.onload = scrollPercentage;
+      
