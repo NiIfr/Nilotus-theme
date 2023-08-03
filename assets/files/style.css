@@ -181,12 +181,12 @@ ol {
   display: none !important;
 }
 
- .broadcamp {
+.broadcamp {
   color: #000;
   margin: 10px;
 }
 
- .broadcamp .broadcamp-path {
+.broadcamp .broadcamp-path {
   background-color: var(--color-white);
   color: var(--color-gray);
   border-radius: 15px;
@@ -194,11 +194,10 @@ ol {
   padding: 10px 30px;
 }
 
- .broadcamp .broadcamp-active {
+.broadcamp .broadcamp-active {
   font-weight: 400;
   color: var(--color-primary);
 }
-
 
 .border {
   background-color: #bec1f333;
@@ -398,7 +397,12 @@ audio::-webkit-media-controls-panel {
   transition: opacity 0.3s;
 }
 
+<<<<<<< HEAD
+audio:-webkit-full-page-media,
+video:-webkit-full-page-media {
+=======
 audio:-webkit-full-page-media, video:-webkit-full-page-media {
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   max-height: 100%;
   max-width: 100%;
 }
@@ -424,7 +428,10 @@ audio::-webkit-media-controls-overlay-enclosure {
   display: none;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
 audio::-webkit-media-controls-play-button {
   -webkit-appearance: media-play-button;
   display: flex;
@@ -441,7 +448,11 @@ audio::-webkit-media-controls-play-button {
   background-color: initial;
   color: inherit;
 }
+<<<<<<< HEAD
+audio::-webkit-media-controls-timeline-container {
+=======
 audio::-webkit-media-controls-timeline-container{
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   -webkit-appearance: media-controls-background;
   display: flex;
   flex-direction: row;
@@ -454,7 +465,12 @@ audio::-webkit-media-controls-timeline-container{
   height: 16px;
   min-width: 0;
 }
+<<<<<<< HEAD
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+=======
 audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display {
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   -webkit-appearance: media-current-time-display;
   -webkit-user-select: none;
   flex: none;
@@ -553,7 +569,11 @@ audio::-webkit-media-controls-fullscreen-volume-slider {
 audio::-webkit-media-controls-fullscreen-volume-min-button {
   display: none;
 }
+<<<<<<< HEAD
+audio::-webkit-media-controls-fullscreen-volume-max-button {
+=======
 audio::-webkit-media-controls-fullscreen-volume-max-button{
+>>>>>>> 4c721f6fc41be1375dfac476e9154444990292e8
   display: none;
 }
 form label {
@@ -585,7 +605,8 @@ textarea:focus {
 textarea {
   height: 150px !important;
 }
-input[type="submit"] {
+input[type="submit"],
+form button {
   background-color: var(--color-primary);
   color: #fff;
   padding: 15px 20px;

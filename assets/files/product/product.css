@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-* Start course product style*/ .main-course {
-=======
- /*Start course product style*/
+/*Start course product style*/
 
 .main-course {
->>>>>>> 682597ee6bc8f60401c83ff32d7f460fad2ac2a2
   width: 100%;
   margin-top: 10rem;
 }
@@ -321,30 +317,13 @@
 .course-side .course-side_item a {
   padding: 1rem;
   font-weight: 500;
-<<<<<<< HEAD
 }
 .course-side .course-side_item a:hover {
   color: var(--color-primary);
-  font-weight: 800;
-  transition: all 0.3s ease-in-out;
-}
-.course-side .course-side_item a:hover::before {
-  color: var(--color-primary);
-  font-weight: 800;
-  content: "\f111";
-  transition: all 0.3s ease-in-out;
-}
-=======
-  }
-  .course-side .course-side_item a:hover{
-    color: var(--color-primary);
-    font-weight: 700;
-    
-    border-bottom: 2px solid var(--color-primary);
+  font-weight: 700;
 
-    }
-
->>>>>>> 682597ee6bc8f60401c83ff32d7f460fad2ac2a2
+  border-bottom: 2px solid var(--color-primary);
+}
 
 .course-side .side-teacher {
   display: flex;
@@ -558,8 +537,7 @@
   border-radius: 10px;
   font-size: 1.2rem;
 }
-.course-session_sub .sub-top .session-name{
-  
+.course-session_sub .sub-top .session-name {
 }
 .hidden {
   transition: 0.4s;
@@ -825,8 +803,5 @@
 .qa-comment .form_comment {
   width: 100%;
   padding: 2rem;
-}
-.form_comment form {
-}
-.form_group {
+  margin-top: 3rem;
 }
