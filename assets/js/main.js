@@ -79,4 +79,19 @@ let customerSwiper = new Swiper(".customer-swiper", {
     
       })
 
+
+
+      let scrollPercentage = () => {
+        let scrollProgress = document.getElementById("progress");
+       
+        let pos = document.documentElement.scrollTop;
+        let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrollValue = Math.round( pos * 100 / calcHeight);
+    
+        scrollProgress.style.background = `conic-gradient(#5557dd ${scrollValue}%, #c0c0ff ${scrollValue}%)`;
+        
+    }
+    
+    window.onscroll = scrollPercentage;
+    window.onload = scrollPercentage;
       
