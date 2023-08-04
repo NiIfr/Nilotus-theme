@@ -181,20 +181,31 @@ ol {
   display: none !important;
 }
 
-.broadcamp {
+ .breadcrumb ul{
   color: #000;
-  margin: 10px;
-}
-
-.broadcamp .broadcamp-path {
-  background-color: var(--color-white);
-  color: var(--color-gray);
-  border-radius: 15px;
+  display: flex inline;
   box-shadow: 1px 1px 50px #2a1a8131;
-  padding: 10px 30px;
+  align-items: center;
+  background-color: var(--color-white);
+  margin:0 1rem ;
+  border-radius: 1.5rem;
+  padding: 0 1rem;
+
+}
+.breadcrumb .breadcrumb-path::after {
+  content: "/";
 }
 
-.broadcamp .broadcamp-active {
+
+ .breadcrumb .breadcrumb-path {
+
+  color: var(--color-gray);
+  
+  padding: 1rem 0.5rem;
+
+}
+
+ .breadcrumb .breadcrumb-active {
   font-weight: 400;
   color: var(--color-primary);
 }

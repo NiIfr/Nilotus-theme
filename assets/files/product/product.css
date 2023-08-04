@@ -5,23 +5,7 @@
   margin-top: 10rem;
 }
 
-.main-course .broadcamp {
-  color: #000;
-  margin: 10px;
-}
 
-.main-course .broadcamp .broadcamp-path {
-  background-color: var(--color-white);
-  color: var(--color-gray);
-  border-radius: 15px;
-  box-shadow: 1px 1px 50px #2a1a8131;
-  padding: 10px 30px;
-}
-
-.main-course .broadcamp .broadcamp-active {
-  font-weight: 400;
-  color: var(--color-primary);
-}
 
 .main-course .course {
   color: #000;
@@ -320,7 +304,7 @@
 }
 .course-side .course-side_item a:hover {
   color: var(--color-primary);
-  font-weight: 700;
+  
 
   border-bottom: 2px solid var(--color-primary);
 }
