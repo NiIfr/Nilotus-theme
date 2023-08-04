@@ -448,15 +448,14 @@
 }
 
 .course-session_sub .sub-top .session-info .session-time {
-  border: 1px solid var(--color-primary);
+
   display: flex;
   align-items: center;
   column-gap: 5px;
   padding: 0 8px;
   border-radius: 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
-
 .course-session_sub .sub-down {
   display: flex;
   flex-direction: row;
@@ -810,36 +809,4 @@
   transition: max-height 0.5s ease-out;
 }
 
-/*
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  top: -20px;
-  border-radius: 0px 0px 15px 15px;
-} 
 
-.accordion {
-  border-radius: 15px;
-  box-shadow: 1px 1px 50px var(--color-shadow);
-  background-color: var(--color-white);
-  color: var(--color-primary);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: right;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin: 5px 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.active,
-.accordion:hover {
-  background-color: var(--color-white);
-  transition: all 0.5 ease-in-out;
-}*/
