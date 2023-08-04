@@ -469,6 +469,9 @@ margin: 2.5rem 0;
 border: 1px solid #ddd;
 border-radius: 10px;
 position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 .article-blogs .blogs .the-blog .blog-des{
@@ -485,8 +488,8 @@ border-bottom: 1px solid #ddd;
 }
 
 .article-blogs .blogs .the-blog .img-sec .blog-img{
-width: 329px;
-height: 212px;
+max-width: 100%;
+
 
 }
 .article-blogs .blogs .the-blog .img-sec .author-img {
@@ -515,8 +518,9 @@ column-gap: 1rem;
 
 .article-blogs .blogs .the-blog a {
 position: absolute;
-bottom: -2rem;
-left: 15rem;
+bottom: -3rem;
+
+
 }
 
 .article-blogs .blogs .the-blog .btn-article{
@@ -602,8 +606,8 @@ transition: all .3s ease-in-out;
 cursor: default;
 }
 .swiper-slide .the-course .img-course img{
-width: 240px;
-height: 20rem;
+max-width: 90%;
+
 position: relative;
 bottom: 3rem;
 }

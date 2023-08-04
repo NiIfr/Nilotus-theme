@@ -379,16 +379,7 @@
   right: 4px;
 }
 /* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  top: -20px;
-  border-radius: 0px 0px 15px 15px;
-}
+
 
 .panel .p-content {
   border-right: 2px solid #726f6f41;
@@ -545,29 +536,7 @@
 }
 /* End Fade text and content*/
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  border-radius: 15px;
-  box-shadow: 1px 1px 50px var(--color-shadow);
-  background-color: var(--color-white);
-  color: var(--color-primary);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: right;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin: 5px 0;
-  transition: all 0.3s ease-in-out;
-}
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.accordion:hover {
-  background-color: var(--color-white);
-  transition: all 0.5 ease-in-out;
-}
 
 /* popup comment */
 
@@ -805,3 +774,88 @@
   padding: 2rem;
   margin-top: 3rem;
 }
+
+
+
+.main-course .course .course-down .course-session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px var(--color-shadow);
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+.main-course .course .course-down .course-session h3 {
+  align-self: flex-start;
+  padding: 10px 10px;
+}
+
+
+
+.accordion {
+  background-color: var(--color-white);
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px var(--color-shadow);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  margin: 5px 0;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: var(--color-white);
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: var(--color-white);
+  max-height: 0;
+  width: 100%;
+  top: -20px;
+  position: relative;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+/*
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  top: -20px;
+  border-radius: 0px 0px 15px 15px;
+} 
+
+.accordion {
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px var(--color-shadow);
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: right;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.active,
+.accordion:hover {
+  background-color: var(--color-white);
+  transition: all 0.5 ease-in-out;
+}*/
