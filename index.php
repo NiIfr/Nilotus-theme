@@ -4,13 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./assets/files/style.css" />
-    <link rel="stylesheet" href="./assets/files/index/index.css" />
-    <link rel="stylesheet" href="./assets/files/header.css" />
-    <link rel="stylesheet" href="./assets/files/footer.css" />
-    <link rel="stylesheet" href="assets/css/fonts.css" />
-    <link rel="stylesheet" href="./assets/files/responsive.css" />
+
+      <?php wp_head(); ?>
 
     <title>نیلوفر وفایی</title>
   </head>
@@ -50,12 +45,12 @@
       <div class="sticky container">
         <a class="nav-logo" href="#">
           <div id="progress">
-            <img id="myImg" class="progress-value" src="assets/images/logo.jpg"  />
+            <img id="myImg" class="progress-value" src="<?php echo get_template_directory_uri().'/assets/images/logo.jpg'?>"  />
           </div>
 
           <div id="myModal" class="modal">
             <span class="close">&times;</span>
-            <a href="https:instagram.com/niloofarvafaei.ir"><img class="modal-content" src="assets/images/instagram.jpg"/>
+            <a href="https:instagram.com/niloofarvafaei.ir"><img class="modal-content" src=" <?php echo get_template_directory_uri() .'/assets/images/instagram.jpg'?>"/>
             </a>
               <div id="caption"></div>
           </div>
@@ -69,10 +64,10 @@
             <div class="bar bar-two"></div>
             <div class="bar bar-three"></div>
           </div>
-    
+
           <div id="mySidenav" class="sidenav">
             <a class="closebtn">&times;</a>
-            
+
             <ul>
               <li><a class="nav-item" href="#">خانه</a></li>
               <li><a class="nav-item" href="#">آموزش</a></li>
@@ -81,7 +76,7 @@
               <li><a class="nav-item" href="#">درباره من</a></li>
               <li><a class="nav-item" href="#">تماس با من</a></li>
             </ul>
-        
+
           </div>
         </div>
 
@@ -96,7 +91,7 @@
             <li><a href="#">تماس با من</a></li>
           </ul>
 
-       
+
         </nav>
         <div class="login">
           <a href="#"
@@ -125,7 +120,7 @@
       </div>
     </div>
 
-   
+
     <!--End Header-->
 
     <!--Start  hero-->
@@ -148,7 +143,7 @@
             </div>
           </div>
           <div class="hero_img">
-            <img src="./assets/images/banner.webp" alt="" />
+            <img src=" <?php echo get_template_directory_uri() .'/assets/images/banner.webp' ?>" />
             <div class="shade"></div>
           </div>
         </din>
@@ -200,9 +195,7 @@
                     </div>
                     <img
                       class="box-shadow"
-                      src="./assets/images/course1.png"
-                      alt=""
-                    />
+                      src=" <?php echo get_template_directory_uri() .'/assets/images/course1.png'?>" />
                   </figure>
                   <div class="course-des">
                     <h4 class="course-title">آموزش دوره طراحی سایت</h4>
@@ -362,9 +355,7 @@
                     </div>
                     <img
                       class="box-shadow"
-                      src="./assets/images/course1.png"
-                      alt=""
-                    />
+                      src=" <?php echo get_template_directory_uri() .'/assets/images/course1.png'?>" />
                   </figure>
                   <div class="course-des">
                     <h4 class="course-title">آموزش دوره طراحی سایت</h4>
@@ -506,9 +497,7 @@
                     </div>
                     <img
                       class="box-shadow"
-                      src="./assets/images/course1.png"
-                      alt=""
-                    />
+                      src=" <?php echo get_template_directory_uri() .'/assets/images/course1.png'?>" />
                   </figure>
                   <div class="course-des">
                     <h4 class="course-title">آموزش دوره طراحی سایت</h4>
@@ -1396,7 +1385,7 @@
             ><span> رفتن به بالا </span></a
           >
           </div>
-         
+
         </div>
       </div>
       </div>
@@ -1413,6 +1402,7 @@
       </ul>
     </div>
     <!-- End Footer -->
+    <?php wp_footer(); ?>
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 100;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-Thin.woff'?>') format('woff');
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 200;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-Light.woff'?>') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 300;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-Regular.woff'?>') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-SemiBold.woff'?>') format('woff');
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 500;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-Regular.woff'?>') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 600;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-Bold.woff'?>') format('woff'); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 700;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-ExtraBold.woff'?>') format('woff');
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 800;
+    src: url('<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-Black.woff'?>') format('woff');
+}
+
+
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 900;
+    src: url("<?php echo get_template_directory_uri() .'/assets/fonts/woff/YekanBakh-ExtraBlack.woff'?>") format('woff');
+}
+
+body,
+button {
+    font-family: 'iranyekan';
+}
+
+
+
+
